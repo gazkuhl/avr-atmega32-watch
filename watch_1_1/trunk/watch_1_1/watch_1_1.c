@@ -88,6 +88,9 @@ void watch_init()
 		DDRC = 0xff;
 		DDRD = 0xf3;			//PD2,PD3 input
 		
+		ASSR = 0x08;			// asynchronous mode for timer2
+		
+		
 		TCCR0 |= (1 << CS01) | (1 << CS00) | (1 << COM00);			// prescaler 64;  COM00 toggle OC0 = PB3
 		TCNT0 = 0;
 		TIMSK |= (1 << TOIE0);			//interrupt enable 
