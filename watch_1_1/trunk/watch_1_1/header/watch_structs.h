@@ -22,6 +22,7 @@
 
 /*defines for 7-segment output*/
 
+#define SEG_NO		0xff
 #define SEG_0		0x08
 #define SEG_1		0x6e
 #define SEG_2		0x14
@@ -32,6 +33,7 @@
 #define SEG_7		0x6c
 #define SEG_8		0x0
 #define SEG_9		0x40
+#define SEG_X		0x22
 #define SEG_ERROR	0x11
 
 
