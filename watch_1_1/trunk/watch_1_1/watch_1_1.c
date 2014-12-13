@@ -178,6 +178,8 @@ void watch_init()
 		sei();				//global interrupt enable
 }
 //test
+//tst2
+
 
 ISR(TIMER2_OVF_vect, ISR_NOBLOCK)
 {
